@@ -1,0 +1,123 @@
+body, html{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0
+}
+.borno{
+    background:url("/img/borno.jpg") no-repeat center center; 
+    height: 100vh;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.borno::after{
+    
+  background-size:cover;
+}
+
+.layer {
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.76),rgba(23, 23, 23, 0.86));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+    color: white !important;
+}
+
+.bighead{
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.pt-5{
+    padding-top: 150px !important;
+}
+
+.carding{
+    padding-top: 70px !important;
+}
+
+.xcessButton{
+    background: #00B964;
+    width: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.xcess:hover{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #00723e;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+.report{
+    background: #EAEAEA;
+}
+.fas{
+    font-size: 30px;
+}
+
+.reportCard{
+    border: none !important;
+}
+
+.cards {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    border-radius: 5px;
+  }
+  
+  .cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  div.cards > img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  
+#section{
+
+    padding: 5em 0 5em 0;
+}
+
+h2.sectionHeader{
+    font-weight: 700 !important;
+    text-align: center;
+}
+
+.our-story{
+    background: #EAEAEA;
+    
+}
+
+.cta{
+   background: #00B964;
+   color:#fff;
+   text-align: center;
+   padding: 5em 0 5em 0;
+}
+
+.img-story{
+    box-shadow: 0 4px 30px -5px black;
+}
+
+.xcessButtonWhite{
+    background: #fff;
+    width: 50px;
+    text-align: center;
+    color: rgb(26, 26, 26);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
